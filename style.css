@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    color: white;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 18px
+}
+
+.mid{
+    /* border: 2px solid rgb(43, 64, 184); */
+    display: block;
+    width: 36.5%;
+    margin: 18px auto;
+    font-family: 'Tektur', cursive;;
+}
+
+.right{
+    position: absolute;
+    /* border: 2px solid rgb(226, 209, 25); */
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #73e894;
+    padding: 0px 15px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: overline rgb(250, 47, 237) 2.5px;
+    color: aqua;
+}
+
+.left img{
+    width: 90px;
+    filter: invert(100%);
+}
+
+#logotext{
+    text-decoration: none;
+    color: darkkhaki;
+    letter-spacing: 4px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: rgba(0, 0, 0, 0.389);
+    color: white;
+    padding: 5px 14px;
+    border: 2px solid rgba(128, 128, 128, 0.341);
+    border-radius: 0.8rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(36, 35, 35);
+}
+
+.container{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid orange;
+    right: 120px;
+    top: 160px;
+    padding: 75px;
+    width: 33.33%;
+    border: 2px solid white;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.332);
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    border: 2px solid purple;
+    width: 230px;
+    padding: 6px;
+    margin: 12px auto;
+    font-size: 15px;
+    font-family: 'Lunasima', sans-serif;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 49%;
+    margin: 5px auto;
+}
+
+.frontpage{
+    height: 600px;
+    width: 1400px;
+    /* object-fit: cover; */
+    border: 3px solid purple;
+    margin: auto;
+    margin-top: 50px;
+}
+
